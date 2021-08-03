@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: hsl(0, 0%, 95%);
+	font-size: 15px;
+	
+}
+p{
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-bottom: 60px;
+}
+img{
+	margin-bottom: 30px;
+}
+h1{
+	text-transform: uppercase;
+	color: hsl(0, 0%, 95%);
+	margin-bottom: 30px;
+	font-family: Big Shoulders Display;
+	font-weight: 700px;
+}
+.row{
+	width: 900px;
+	margin: 100px auto;
+	/*border-radius: 10px;
+	border: 1px solid;*/
+	padding: 0;
+}
+.first{
+	background-color: hsl(31, 77%, 52%);
+	padding: 40px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.second{
+	background-color: hsl(184, 100%, 22%);
+	padding: 40px;
+	
+}
+.third{
+	background-color: hsl(179, 100%, 13%);
+	padding: 40px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+}
+
+.btn{
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 20px;
+	
+}
+.btn-f{
+	color: hsl(31, 77%, 52%);
+
+}
+.btn-f:hover{
+	background-color: hsl(31, 77%, 52%);
+	color: hsla(0, 0%, 100%, 0.75);
+	border: 1px solid;
+}
+.btn-s{
+	color:  hsl(184, 100%, 22%);
+}
+.btn-s:hover{
+	background-color: hsl(184, 100%, 22%);
+	color: hsla(0, 0%, 100%, 0.75);
+	border: 1px solid;
+}
+.btn-t{
+	color: hsl(179, 100%, 13%);
+}
+.btn-t:hover{
+	background-color: hsl(179, 100%, 13%);
+	color: hsla(0, 0%, 100%, 0.75);
+	border: 1px solid;
+}
